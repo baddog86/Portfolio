@@ -1,0 +1,28 @@
+body { background-color: rgb(41, 41, 41);
+color: rgb(226, 226, 226);}
+
+
+ul li a.active {
+  background-color: #0468aa;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+  font-size: 28;
+  font-weight: bolder;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #01165c;
+}
