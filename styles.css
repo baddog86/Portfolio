@@ -1,11 +1,6 @@
 body { background-color: rgb(41, 41, 41);
 color: rgb(226, 226, 226);}
 
-
-ul li a.active {
-  background-color: #0468aa;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -24,5 +19,10 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #01165c;
+  background-color: #4d4d4d;
+}
+
+.spacer {
+  height: 40px;
+  width: 100%;
 }
